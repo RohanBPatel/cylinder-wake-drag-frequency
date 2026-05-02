@@ -6,7 +6,7 @@ This repository contains the data processing pipeline for our final lab project 
 
 The code handles TIFF image image processing, velocity field fitting, drag coefficient estimation, and Dynamic Mode Decomposition (DMD) for vortex-shedding frequency extraction.
 
-https://github.com/RohanBPatel/cylinder-wake-drag-frequency/blob/main/Figures/Videos/T8_Open_Lab_3_5_400.mp4
+<video src="Figures/Videos/T8_Open_Lab_3_5_400.mp4?raw=true" controls width="720"></video>
 
 <!-- 5_400.mp4, 10_100.mp4, 10_150.mp4, 10_400.mp4, 15_150.mp4, 15_400.mp4 -->
 
@@ -22,7 +22,7 @@ https://github.com/RohanBPatel/cylinder-wake-drag-frequency/blob/main/Figures/Vi
 
 <!-- Raw calibration and image files `T8_Open_Lab_{1,2,3}` are shared [here](). -->
 
-Each lab day folder contains subfolders named `{diameter}_{grit}/` holding the raw `.tiff` burst frames and a `calibration/` subfolder with the ruler image used to compute the magnification factor $\alpha$ (mm/px).
+<!-- Each lab day folder contains subfolders named `{diameter}_{grit}/` holding the raw `.tiff` burst frames and a `calibration/` subfolder with the ruler image used to compute the magnification factor $\alpha$ (mm/px). -->
 
 ## Method Summary
 
@@ -78,7 +78,9 @@ Surface roughness was found to increase skin friction drag rather than delay bou
 
 <!-- ## Future Work
 1. Try BOPDMD
-1. Add more data. -->
+1. Add more data. 
+1. more from report
+-->
 
 ## Setup
 
@@ -106,6 +108,12 @@ pip install -r requirements.txt
 | `matplotlib` | Plotting |
 | `pydmd` | Dynamic Mode Decomposition |
 
+## License
+
+Huge thanks to [Blake Vennall](https://www.linkedin.com/in/blake-vennall-b23a97270/) and [Logan Woodcock](https://www.linkedin.com/in/logan-woodcock-4a9991291/) for their work in conception, lab testing, and interpretation.
+
+This code was developed as part of an open-ended lab project in ME 30801 at Purdue University. Feel free to adapt it for educational purposes with attribution to Rohan Patel.
+
 ## References
 
 [^Blevins]: R. D. Blevins, “Forces on and stability of a cylinder in a wake,” *Journal of Offshore Mechanics and Arctic Engineering*, vol. 127, no. 1, pp. 39–45, Mar. 2005, ISSN: 0892-7219. DOI: [10.1115/1.1854697](10.1115/1.1854697). eprint: [https://asmedigitalcollection.asme.org/offshoremechanics/article-pdf/127/1/39/5555682/39_1.pdf](https://asmedigitalcollection.asme.org/offshoremechanics/article-pdf/127/1/39/5555682/39_1.pdf). [Online]. Available: [https://doi.org/10.1115/1.1854697](https://doi.org/10.1115/1.1854697).
@@ -113,9 +121,3 @@ pip install -r requirements.txt
 I believe Eq. (3) has typo in the paper. The exponential should be inside the parentheses. Conceptually, the wake velocity is `free stream * (1 - spread * deficit)`.
 
 [^text]: R. W. Fox, A. T. McDonald, and J. W. Mitchell, *Fox and McDonald's Introduction to Fluid Mechanics*. Wiley, 2020.
-
-## License
-
-Huge thanks to [Blake Vennall](https://www.linkedin.com/in/blake-vennall-b23a97270/) and [Logan Woodcock](https://www.linkedin.com/in/logan-woodcock-4a9991291/) for their work in conception, lab testing, and interpretation.
-
-This code was developed as part of an open-ended lab project in ME 30801 at Purdue University. Feel free to adapt it for educational purposes with attribution to Rohan Patel.
