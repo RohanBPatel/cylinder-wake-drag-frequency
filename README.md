@@ -6,7 +6,9 @@ This repository contains the data processing pipeline for our final lab project 
 
 The code handles TIFF image image processing, velocity field fitting, drag coefficient estimation, and Dynamic Mode Decomposition (DMD) for vortex-shedding frequency extraction.
 
-<video src="Figures/Videos/T8_Open_Lab_3_5_400.mp4?raw=true" controls width="720"></video>
+<!-- <video src="Figures/Videos/T8_Open_Lab_3_5_400.mp4?raw=true" controls width="720"></video> -->
+
+https://github.com/user-attachments/assets/570a39dd-b4ba-4d32-9356-70b5ab2caf6d
 
 <!-- 5_400.mp4, 10_100.mp4, 10_150.mp4, 10_400.mp4, 15_150.mp4, 15_400.mp4 -->
 
