@@ -6,10 +6,9 @@ This repository contains the data processing pipeline for our final lab project 
 
 The code handles TIFF image image processing, velocity field fitting, drag coefficient estimation, and Dynamic Mode Decomposition (DMD) for vortex-shedding frequency extraction.
 
-<!-- <video src="Figures/Videos/T8_Open_Lab_3_5_400.mp4?raw=true" controls width="720"></video> -->
-
 https://github.com/user-attachments/assets/570a39dd-b4ba-4d32-9356-70b5ab2caf6d
 
+<!-- <video src="Figures/Videos/T8_Open_Lab_3_5_400.mp4?raw=true" controls width="720"></video> -->
 <!-- 5_400.mp4, 10_100.mp4, 10_150.mp4, 10_400.mp4, 15_150.mp4, 15_400.mp4 -->
 
 ## Repository Structure
@@ -72,7 +71,7 @@ Key output figures:
 | Quantity | Value |
 |---|---|
 | Reynolds number range     | ~1,600 - 5,500 |
-| Drag coefficient trend    | Cd = $40.2 Re^{-0.391}$ |
+| Drag coefficient trend    | $C_d = 40.2 Re^{-0.391}$ |
 | Median wake model $R^2$   | 0.840 |
 | Strouhal number reference | $St_0 \approx 0.21$ (smooth cylinder) |
 
@@ -88,7 +87,7 @@ Surface roughness was found to increase skin friction drag rather than delay bou
 
 **Python 3.10+ recommended.**
 
-Create virtual environment with venv, uv, or conda, etc:
+Create virtual environment with venv, virtualenv, uv, or conda, etc:
 ```bash
 python -m venv .venv
 ```
